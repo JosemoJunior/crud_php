@@ -78,9 +78,9 @@
             echo "<tr>";
 
             echo '<td align="center"><a href="?delete=' 
-            . $pessoa['cod_pessoa'] . '">( X )</a></td>';
+            . $pessoa['cod_pessoa'] . '"><input type="submit" class="btn btn-primary botao" value="x"</a></td>';
             echo '<td align="center"><a href="alterar.php?cod_pessoa=' 
-            . $pessoa['cod_pessoa'] . '">( Alterar )</a></td>';
+            . $pessoa['cod_pessoa'] . '"> <input type="submit" class="btn btn-primary botao" value="Alterar"</a></td>';
             
             echo "<td> $pessoa[nome] </td>";
             echo "<td> $pessoa[cpf] </td>";
